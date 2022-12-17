@@ -81,11 +81,12 @@ header h1 {
     bottom: 0;
     border: 1px solid var(--stroke-color-1);
     width: 620px;
+    background-color: var(--background-color-4);
 }
 
 .btn-login,
 .btn-sing-up {
-    width: 306px;
+    width: 306.75px;
     height: 70px;
     border: none;
     font-size: 35px;
@@ -96,11 +97,11 @@ header h1 {
     transition: 0.5s all;
 }
 
-.btn-login:hover,
+/* .btn-login:hover,
 .btn-sing-up:hover {
     background-color: var(--background-color-1);
     color: var(--color-text-3);
-}
+} */
 
 .dev {
     text-align: center;
@@ -124,4 +125,8 @@ header h1 {
 .active {
     background-color: var(--background-color-4);
     color: var(--color-text-2);
+}
+
+.hide {
+    display: none;
 }
